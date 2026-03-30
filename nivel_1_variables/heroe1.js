@@ -1,4 +1,4 @@
-let nombreHeroe = "Blue";
+let nombreHeroe = "Stark";
 let poder = "super inteligencia, velocidad y alta resistencia";
 let nivelEnergia = 170;
 let ciudad = "América";
