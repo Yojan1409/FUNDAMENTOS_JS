@@ -32,9 +32,9 @@ function recargarEnergiaH1() {
 
 
 
-// function superAtaqueH1() {
-//     console.log("Posteriormente va donde " + nombreH2 + " y lo ataca con un " + superH1 + " haciendo que la energía de su rival baje a " + (energiaH2 - 100) + " por ciento.");
-// }
+function superAtaqueH1() {
+    console.log("Posteriormente va donde " + nombreH2 + " y lo ataca con un " + superH1 + " haciendo que la energía de su rival baje a " + (energiaH2 - 100) + " por ciento.");
+}
 
 // function superEscudoH2() {
 //     console.log(nombreH2 + " al ver la poca energía que le quedaba decide usar su " + superH2 + ", subiendo la energía de su resistencia al máximo con un " + (energiaH2 + 80) + " por ciento.");
@@ -45,5 +45,5 @@ defensaH1();
 revelacionH1();
 recargarEnergiaH1();
 
-//superAtaqueH1();
+superAtaqueH1();
 //superEscudoH2();
