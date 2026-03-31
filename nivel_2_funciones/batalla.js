@@ -11,7 +11,7 @@ let energiaH2 = 120;
 let ciudadH2 = "Lima";
 let enemigoH2 = "Megatron";
 let amigoH2 = "Ritta";
-let superH2 = "Escudo gravitacional potenciado";
+let superH2 = "escudo gravitacional potenciado";
 
 function ataqueH2() {
     console.log("El héroe " + nombreH2 + " va a la ciudad de " + ciudadH1 + " y ataca con su poder de " + poderH2 + " al también héroe " + nombreH1 + " en un suceso totalmente inesperado.");
@@ -33,11 +33,11 @@ function recargarEnergiaH1() {
 
 
 function superAtaqueH1() {
-    console.log("Posteriormente va donde " + nombreH2 + " y lo ataca con un " + superH1 + " haciendo que la energía de su rival baje a " + (energiaH2 - 100) + " por ciento.");
+    console.log("En un segundo va donde " + nombreH2 + " y lo ataca con un " + superH1 + ", haciendo que la energía de su rival baje a " + (energiaH2 - 100) + " por ciento de poder.");
 }
 
 function superEscudoH2() {
-    console.log(nombreH2 + " al ver la poca energía que le quedaba decide usar su " + superH2 + ", subiendo la energía de su resistencia al máximo con un " + (energiaH2 + 80) + " por ciento.");
+    console.log(nombreH2 + " al ver la poca energía que le quedaba decide usar su " + superH2 + ", subiendo su resistencia al máximo con un " + (energiaH2 + 80) + " por ciento. Aguantando el golpe final en el último segundo.");
 }
 
 ataqueH2();
