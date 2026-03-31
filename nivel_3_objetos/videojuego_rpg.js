@@ -3,7 +3,7 @@ let jugador1 = {
     vida: 100,
     fuerza: 30,
     nivel: 20,
-    pocines: 1
+    pociones: 1
 };
 
 let jugador2 = {
@@ -50,6 +50,22 @@ function lvlUp(jugador1, jugador2) {
     console.log("Asu vez después de matar varios jefes más con ayuda de las pociones que les quedaban, " + jugador1.nombre + " sube al nivel " + jugador1.nivel + " y " + jugador2.nombre + " sube al nivel " + jugador2.nivel);
 }
 
+function estado(jugador1, jugador2) {
+    console.log("Quedando así las estadísticas de ambos jugadores. ");
+    console.log("Estado de " + jugador1.nombre + ":");
+    console.log("Vida: " + jugador1.vida);
+    console.log("Fuerza: " + jugador1.fuerza);
+    console.log("Nivel: " + jugador1.nivel);
+    console.log("Pociones: " + jugador1.pociones);
+    console.log("Y ");
+    console.log("Estado de " + jugador2.nombre + ":");
+    console.log("Vida: " + jugador2.vida);
+    console.log("Fuerza: " + jugador2.fuerza);
+    console.log("Nivel: " + jugador2.nivel);
+    console.log("Pociones: " + jugador2.pociones);
+}
+
 entrenar(jugador1, jugador2);
 curarse(jugador1, jugador2);
 lvlUp(jugador1, jugador2);
+estado(jugador1, jugador2);
