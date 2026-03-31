@@ -36,5 +36,20 @@ function curarse(jugador1, jugador2) {
     console.log("Posteriormente " + jugador1.nombre + " y " + jugador2.nombre + " se curan con las pociones dropeadas; por lo tanto ahora tienen " + jugador1.vida + " y " + jugador2.vida + " de vida, según el orden.");
 }
 
+function lvlUp(jugador1, jugador2) {
+    jugador1.nivel += 10;
+    jugador1.fuerza += 10;
+    jugador1.vida += 20;
+    jugador1.pociones -= 3
+
+    jugador2.nivel += 3;
+    jugador2.fuerza += 10;
+    jugador2.vida += 12;
+    jugador2.pociones -= 1
+
+    console.log("Asu vez después de matar varios jefes más con ayuda de las pociones que les quedaban, " + jugador1.nombre + " sube al nivel " + jugador1.nivel + " y " + jugador2.nombre + " sube al nivel " + jugador2.nivel);
+}
+
 entrenar(jugador1, jugador2);
 curarse(jugador1, jugador2);
+lvlUp(jugador1, jugador2);
